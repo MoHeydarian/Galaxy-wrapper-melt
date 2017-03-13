@@ -8,7 +8,7 @@
         <exit_code range="1:" />
     </stdio>
     <command><![CDATA[
-        Rscript ${__tool_directory__}/melt.R --input "$input1" --output "Rplot.pdf"
+        Rscript ${__tool_directory__}/melt.R --input "$input1" --output "output.tabular"
     ]]></command>
     <inputs>
         <param name="input1" type="data" format="tabular" label="Input should have column headers - these will be the variable IDs that are summarized"/>
